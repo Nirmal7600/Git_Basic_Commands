@@ -1,0 +1,44 @@
+
+How to Set Global username and email for Git (Locally).
+Note: It shows the provided “email” and “name” when you do commit, when you check the logs once you have configured it.   
+git config --global user.name "<your username>"
+git config --global user.email "<your email>"
+
+Initialize (Create Git Repository)
+Making an empty Git Repository from a Local Normal Directory  
+git init
+Clone an existing Git Repository from the remote git repository. 
+git clone <repository URL>
+Add file/stage to git (Which are untracked check with git status command)
+git add <filename>
+Add all the files to git.
+git add .              (Must check the path from where you are running this command, you should be in the correct directory from where you want to perform “git add”)
+Commit all the staged files to git.
+git commit -m "<your commit message>"
+Restore the file from being modified to Tracked.
+git restore <filename>
+git checkout <filename>
+Check the status of your Git Repository.
+git status
+Check the branches of your git Repository.
+git branch
+How to checkout to a new branch?
+git checkout -b <branch name>
+How to checkout to an existing branch?
+git checkout <branch name>
+Remove a branch from Git
+git branch -d <branch name>
+ How to check the Remote Origin URL?
+git remote -v
+How to Add a Remote origin URL?
+git remote add origin <your remote git URL>
+How to Remove Rmote Origin URL?
+git remote remove origin 
+How to Fetch all the Remote Branches?
+git fetch
+Push your local changes to Remote Branch
+git push origin <branch name>
+Pull your remote changes to Local Branch
+git pull origin <branch name>
+How to Check “git commits” and “logs”?
+git log
