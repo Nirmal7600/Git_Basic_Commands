@@ -28,7 +28,7 @@ How to checkout to an existing branch?
 git checkout <branch name>
 Remove a branch from Git
 git branch -d <branch name>
- How to check the Remote Origin URL?
+How to check the Remote Origin URL?
 git remote -v
 How to Add a Remote origin URL?
 git remote add origin <your remote git URL>
